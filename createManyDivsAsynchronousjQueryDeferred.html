@@ -31,7 +31,7 @@
         }(0));
         return dfd.promise();
     }
-    createDiv(900000).then(function() {
+    createDiv(900000).done(function() {
         var newDiv = document.createElement('div');
         newDiv.textContent = "All done!!";
         document.body.appendChild(newDiv);
